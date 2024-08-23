@@ -1,0 +1,10 @@
+# This is an example of the Savu code used to perform reconstructions for the I13-2 XCT data
+
+# INPUT.nxs is the raw data NeXus file eg. 169068.nxs
+# The SAVU_PROCESS_LIST.nxs is the Savu process list used to tell Savu what to do with the raw data eg. scan169068_Savu_Recon.nxs
+# OUTPUT_DIR specifies where the reconstructed data goes
+# TMP_DIR specifies a temporary directory for intermediate files to go
+
+# Please use the command below to reproduce the obtained results exactly. The -s savu_version flag will set the correct Savu environment for you automatically
+savu_mpi -s 4.2-slurm INPUT.nxs SAVU_PROCESS_LIST.nxs OUTPUT_DIR -d TMP_DIR
+
