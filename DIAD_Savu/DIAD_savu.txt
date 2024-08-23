@@ -1,0 +1,8 @@
+# The directory the command was executed from
+/dls/k11/data/2024/mg32980-1/tmp/zocalo/nexus/_1/91dfa3ba-6e7b-4a5b-b047-f9506c83fd97
+
+# Original Savu run command
+savu /dls/k11/data/2024/mg32980-1/nexus/k11-43334.nxs /dls/k11/data/2024/mg32980-1/xml/tomography/configurations/Savu/full_fd_rr_vo_AST_tiff.nxs /dls/k11/data/2024/mg32980-1/processed -n GPU0,GPU1,GPU2,GPU3,CPU0,CPU1,CPU2,CPU3,CPU4,CPU5,CPU6,CPU7,CPU8,CPU9,CPU10,CPU11,CPU12,CPU13,CPU14,CPU15,CPU16,CPU17,CPU18,CPU19,CPU20,CPU21,CPU22,CPU23,CPU24,CPU25,CPU26,CPU27,CPU28,CPU29,CPU30,CPU31,CPU32,CPU33,CPU34,CPU35 -c -f /dls/k11/data/2024/mg32980-1/processed/Savu_k11-43334_full_fd_rr_vo_AST_tiff -s graylog2.diamond.ac.uk -p 12203 --facility_email scientificsoftware@diamond.ac.uk -l /dls/k11/data/2024/mg32980-1/processed/Savu_k11-43334_full_fd_rr_vo_AST_tiff
+
+# A modified Savu command to use to reproduce the  obtained result
+savu INPUT.nxs PROCESS_LIST.nxs OUTPUT_DIR -f OUTPUT_DIR_NAME -l LOG_DIR
