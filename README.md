@@ -8,6 +8,8 @@ XRD_Analysis_ascii.ipynb shows how to load and visualise the powder-XRD data, sh
 
 A copy of the bash code to execute savu, along with the savu process list is provided for the I13-2 and DIAD XCT entries on Zenodo.
 
+Sinograms.ipynb describes the loading and processing used to plot sinograms for the Zinc and Sodium phases.
+
 DiffTomo_Analysis.ipynb is a Jupyter Notebook which shows how to perform the reconstruction of the XRD-CT data collected from DIAD.
 
 I13-2_Alignment.ipynb is a Jupyter Notebook which shows the process used to align the XCT data across all four resolution obtained on I13-2.
