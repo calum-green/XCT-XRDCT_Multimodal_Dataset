@@ -1,6 +1,6 @@
 # XCT-XRDCT Paper Code
 
-This repo stores all of the associated code for the multimodal data descriptor paper found INSERT LINK
+This repo stores all of the associated code for the multimodal data descriptor paper , of which the pre-print is found at [Three-Dimensional, Multimodal Synchrotron Data for Machine Learning Applications](https://arxiv.org/abs/2409.07322)
 
 The paper describes four resolution X-Ray Computed Tomography (XCT) data obtained on the I13-2 beamline, along with XCT data from DIAD, two resolutions of X-Ray Diffraction Computed Tomography data (XRD-CT) from DIAD, and powder X-Ray Diffraction data from the ISIS Neutron & Muon Source Materials Characterisation Lab.
 
