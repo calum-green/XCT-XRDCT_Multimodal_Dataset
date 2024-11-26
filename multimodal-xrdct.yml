@@ -1,0 +1,9 @@
+name: multimodal-xrdct
+channels:
+- conda-forge
+dependencies:
+- tomopy
+- h5py
+- matplotlib
+- scikit-image
+- jupyter
